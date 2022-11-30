@@ -8,14 +8,28 @@ The data set is at 10 min for about 4.5 months. The house temperature and humidi
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <h2> :book: Random Forest Regressor </h2>
+Random forest Regressor is Supervised Machine learning Algorithm. It is uses the Bagging Technique. This algorithm gives the best result using hyper parameter tuning on this dataset.  It is a set of decision tree randomly selected subset of training set and then for regression, It is collect all the output from the number of decision tree and find the mean of all the decision tree output, that is the output of rendom forest regressor.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <h2> :clipboard: Execution Instruction</h2>
+Appliances energy Prediction.ipynb file is Google colab file that can be run directly on google colab and this file can also be download and run on localy usinf VS code or Jupyter notebook.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-<h2> :book: Conclusion </h2>
+<h2> :book: Steps performed On dataset and Conclusion </h2>
+
+As first step Performed data Preprocessing and clean the data, handled the missing values.
+
+Performed EDA on different features in dataset, to observe trend and relation between features.
+
+By using VIF removed multicollinearity of features.
+
+After the EDA part, for model prediction split the data in train and test.
+
+Train the data on some algorithms as Linear regression, Lasso and Ridge regression, Support vector machine, and Random forest Regressor, among all the Rendom forest regressor gives the best performence on data.
+
+Rendom forest regressor gives the r2 score of 0.54 on test data.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
